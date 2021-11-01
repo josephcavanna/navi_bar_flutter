@@ -38,4 +38,3 @@ class NaviBarItem {
   /// Optional. Changes the icon of the selected tab.
   final IconData? activeIcon;
 }
-
