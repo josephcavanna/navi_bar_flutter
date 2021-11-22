@@ -1,6 +1,6 @@
 name: navi_bar_flutter
 description: A customizable bottom navigation bar using simple animations and theme colors that comes with a couple of presets.
-version: 1.0.2
+version: 1.0.4
 
 repository: https://github.com/josephcavanna/navi_bar_flutter
 homepage: https://github.com/josephcavanna/navi_bar_flutter
@@ -27,8 +27,8 @@ flutter:
 
   # To add Flutter specific assets to your application, add an assets section,
   # like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+    - gif/navibar.gif
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

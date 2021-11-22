@@ -17,10 +17,10 @@ class DemoApp extends StatelessWidget {
     return Container(
       child: MaterialApp(
         /// [NaviBar] uses by default your theme colors
-        theme: ThemeData(
-            backgroundColor: Colors.red,
-            primaryColor: Colors.deepOrangeAccent,
-            scaffoldBackgroundColor: Colors.orangeAccent),
+        // theme: ThemeData(
+        //     backgroundColor: Colors.red,
+        //     primaryColor: Colors.deepOrangeAccent,
+        //     scaffoldBackgroundColor: Colors.orangeAccent),
         home: DemoPage(),
       ),
     );
@@ -65,8 +65,8 @@ class _DemoPageState extends State<DemoPage> {
 /// Create a list of [NaviBarItem]
 /// Optional. [NaviBarItem] lets you change the color of individual icons, their color and background color.
 List<NaviBarItem> items = [
-  NaviBarItem(icon: Icons.house, label: 'House', page: Hello()),
-  NaviBarItem(icon: Icons.ac_unit, label: 'AC', page: Welcome()),
-  NaviBarItem(icon: Icons.house, label: 'House', page: Page3()),
-  NaviBarItem(icon: Icons.ac_unit, label: 'AC', page: Page4()),
+  NaviBarItem(icon: Icons.house, label: 'Home', page: Hello()),
+  NaviBarItem(icon: Icons.download, label: 'Download', page: Welcome()),
+  NaviBarItem(icon: Icons.account_circle, label: 'Account', page: Page3()),
+  NaviBarItem(icon: Icons.folder, label: 'Files', page: Page4()),
 ];
