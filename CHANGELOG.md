@@ -7,3 +7,5 @@
 ## [1.0.3+4] - Readme updates
 
 ## [1.0.4+5] - Readme updates
+
+## [1.0.5+6] - Readme updates

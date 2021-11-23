@@ -2,12 +2,12 @@
 
 A customizable bottom navigation bar using simple animations and theme colors that comes with a couple of presets.
 
-![](gif/navibar.gif)
+![NaviBar example](https://github.com/josephcavanna/navi_bar_flutter/blob/main/gif/navibar.gif)
 
 ### Add dependency
 ```yaml
 dependencies: 
-  navi_bar_flutter: ^1.0.4 #latest version
+  navi_bar_flutter: ^1.0.5 #latest version
 ```
 
 ### How to use
