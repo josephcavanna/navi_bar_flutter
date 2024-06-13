@@ -107,8 +107,8 @@ class _NaviBarState extends State<NaviBar> with SingleTickerProviderStateMixin {
   @override
   Widget build(BuildContext context) {
     _animationColor = ColorTween(
-            begin:
-                widget.unselectedTabColor ?? Theme.of(context).colorScheme.surface,
+            begin: widget.unselectedTabColor ??
+                Theme.of(context).colorScheme.surface,
             end: widget.selectedTabColor ??
                 Theme.of(context).scaffoldBackgroundColor)
         .animate(_controller);
@@ -133,7 +133,8 @@ class _NaviBarState extends State<NaviBar> with SingleTickerProviderStateMixin {
     return Container(
       decoration: BoxDecoration(
           borderRadius: widget.borderRadius ?? borderRadius,
-          color: widget.backgroundColor ?? Theme.of(context).colorScheme.surface),
+          color:
+              widget.backgroundColor ?? Theme.of(context).colorScheme.surface),
       margin: widget.barPadding ?? barPadding,
       width: double.infinity,
       height: widget.barHeight,
