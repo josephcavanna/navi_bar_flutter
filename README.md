@@ -7,7 +7,7 @@ A customizable bottom navigation bar using simple animations and theme colors th
 ### Add dependency
 ```yaml
 dependencies: 
-  navi_bar_flutter: ^1.0.5 #latest version
+  navi_bar_flutter: ^1.0.6 #latest version
 ```
 
 ### How to use
