@@ -1,6 +1,6 @@
 name: navi_bar_flutter
 description: A customizable bottom navigation bar using simple animations and theme colors that comes with a couple of presets.
-version: 1.0.6
+version: 1.0.7
 
 repository: https://github.com/josephcavanna/navi_bar_flutter
 homepage: https://github.com/josephcavanna/navi_bar_flutter
