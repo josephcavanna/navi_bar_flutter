@@ -6,7 +6,7 @@ repository: https://github.com/josephcavanna/navi_bar_flutter
 homepage: https://github.com/josephcavanna/navi_bar_flutter
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=2.12.0 <4.0.0"
 
 dependencies:
   flutter:
